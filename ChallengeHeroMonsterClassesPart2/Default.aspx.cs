@@ -52,7 +52,7 @@ namespace ChallengeHeroMonsterClassesPart2
         private void displayResult(Character opponent1, Character opponent2)
         {
             if (opponent1.Health <= 0 && opponent2.Health <= 0)
-                resultLabel.Text += String.Format("<p>Both {0) and {1} have died. </p>", opponent1.Name, opponent2.Name);
+                resultLabel.Text += String.Format("<p>Both {0} and {1} have died. </p>", opponent1.Name, opponent2.Name);
             else if (opponent1.Health <= 0)
                 resultLabel.Text += String.Format("<p> The {0} has died</p>", opponent1.Name);
             else if (opponent2.Health <= 0)
